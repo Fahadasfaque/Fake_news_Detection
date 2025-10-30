@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detection - AI Powered</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>FakeNews Detector</span>
+                </div>
+                <div class="header-subtitle">
+                    AI-Powered News Authenticity Verification
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Input Section -->
+            <section class="input-section">
+                <div class="input-container">
+                    <h2 class="section-title">
+                        <i class="fas fa-newspaper"></i>
+                        Analyze News Article
+                    </h2>
+                    <div class="textarea-wrapper">
+                        <textarea 
+                            id="newsInput" 
+                            placeholder="Paste your news article here to check its authenticity..."
+                            rows="8"
+                        ></textarea>
+                        <div class="character-count">
+                            <span id="charCount">0</span> characters
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <button id="analyzeBtn" class="analyze-btn">
+                            <i class="fas fa-search"></i>
+                            <span>Analyze Article</span>
+                            <div class="btn-loader"></div>
+                        </button>
+                        <button id="clearBtn" class="clear-btn">
+                            <i class="fas fa-trash"></i>
+                            Clear
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section" id="resultsSection">
+                <div class="results-container">
+                    <h2 class="section-title">
+                        <i class="fas fa-chart-line"></i>
+                        Analysis Results
+                    </h2>
+                    
+                    <!-- Overall Result -->
+                    <div class="overall-result" id="overallResult">
+                        <div class="result-icon" id="resultIcon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="result-content">
+                            <h3 id="resultTitle">Analysis Complete</h3>
+                            <p id="resultDescription">The article has been analyzed using multiple AI models</p>
+                        </div>
+                        <div class="confidence-score" id="confidenceScore">
+                            <span class="score-label">Confidence</span>
+                            <span class="score-value" id="scoreValue">95%</span>
+                        </div>
+                    </div>
+
+                    <!-- Model Predictions -->
+                    <div class="model-predictions">
+                        <h3 class="predictions-title">Individual Model Predictions</h3>
+                        <div class="models-grid">
+                            <div class="model-card" id="lrModel">
+                                <div class="model-header">
+                                    <i class="fas fa-brain"></i>
+                                    <span>Logistic Regression</span>
+                                </div>
+                                <div class="model-result">
+                                    <span class="prediction" id="lrPrediction">-</span>
+                                    <div class="confidence-bar">
+                                        <div class="confidence-fill" id="lrConfidence"></div>
+                                    </div>
+                                    <span class="confidence-text" id="lrConfidenceText">-</span>
+                                </div>
+                            </div>
+
+                            <div class="model-card" id="dtModel">
+                                <div class="model-header">
+                                    <i class="fas fa-sitemap"></i>
+                                    <span>Decision Tree</span>
+                                </div>
+                                <div class="model-result">
+                                    <span class="prediction" id="dtPrediction">-</span>
+                                    <div class="confidence-bar">
+                                        <div class="confidence-fill" id="dtConfidence"></div>
+                                    </div>
+                                    <span class="confidence-text" id="dtConfidenceText">-</span>
+                                </div>
+                            </div>
+
+                            <div class="model-card" id="gbModel">
+                                <div class="model-header">
+                                    <i class="fas fa-rocket"></i>
+                                    <span>Gradient Boosting</span>
+                                </div>
+                                <div class="model-result">
+                                    <span class="prediction" id="gbPrediction">-</span>
+                                    <div class="confidence-bar">
+                                        <div class="confidence-fill" id="gbConfidence"></div>
+                                    </div>
+                                    <span class="confidence-text" id="gbConfidenceText">-</span>
+                                </div>
+                            </div>
+
+                            <div class="model-card" id="rfModel">
+                                <div class="model-header">
+                                    <i class="fas fa-tree"></i>
+                                    <span>Random Forest</span>
+                                </div>
+                                <div class="model-result">
+                                    <span class="prediction" id="rfPrediction">-</span>
+                                    <div class="confidence-bar">
+                                        <div class="confidence-fill" id="rfConfidence"></div>
+                                    </div>
+                                    <span class="confidence-text" id="rfConfidenceText">-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Analysis Details -->
+                    <div class="analysis-details">
+                        <h3 class="details-title">Analysis Details</h3>
+                        <div class="details-grid">
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span class="detail-label">Processing Time</span>
+                                <span class="detail-value" id="processingTime">-</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-file-alt"></i>
+                                <span class="detail-label">Text Length</span>
+                                <span class="detail-value" id="textLength">-</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-cogs"></i>
+                                <span class="detail-label">Models Used</span>
+                                <span class="detail-value">4 AI Models</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sample Articles Section -->
+            <section class="samples-section">
+                <div class="samples-container">
+                    <h2 class="section-title">
+                        <i class="fas fa-lightbulb"></i>
+                        Try Sample Articles
+                    </h2>
+                    <div class="samples-grid">
+                        <div class="sample-card" data-type="fake">
+                            <div class="sample-header">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span>Sample Fake News</span>
+                            </div>
+                            <p class="sample-text">
+                                "Breaking: Scientists discover that drinking coffee backwards can reverse aging process. Local man becomes 20 years younger after following this simple trick that doctors don't want you to know..."
+                            </p>
+                            <button class="sample-btn">Try This Sample</button>
+                        </div>
+
+                        <div class="sample-card" data-type="real">
+                            <div class="sample-header">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Sample Real News</span>
+                            </div>
+                            <p class="sample-text">
+                                "WASHINGTON (Reuters) - The Federal Reserve announced today a 0.25% interest rate adjustment following their monthly policy meeting. The decision was made after careful consideration of current economic indicators and inflation data..."
+                            </p>
+                            <button class="sample-btn">Try This Sample</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 Fake News Detection System. Powered by Machine Learning.</p>
+                <div class="footer-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fas fa-info-circle"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h3>Analyzing Article...</h3>
+            <p>Our AI models are processing your text</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

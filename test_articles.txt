@@ -1,0 +1,97 @@
+===============================================
+FAKE NEWS DETECTION - TEST ARTICLES
+===============================================
+
+This file contains sample news articles for testing the fake news detection web application.
+Copy and paste these articles into the application to see how it performs.
+
+===============================================
+FAKE NEWS ARTICLES (Should be detected as FAKE)
+===============================================
+
+FAKE ARTICLE 1:
+BREAKING: Scientists Discover Coffee Can Reverse Aging - Doctors HATE This Simple Trick!
+
+A shocking new study has revealed that drinking coffee backwards (starting from the bottom of the cup) can actually reverse the aging process by up to 20 years! Local man John Smith, 65, claims he now looks 45 after following this incredible method for just 3 weeks. "I can't believe how young I look now," says Smith. "My wrinkles disappeared and my hair grew back!" The medical establishment is trying to suppress this information because it threatens their billion-dollar anti-aging industry. This secret technique has been hidden from the public for decades, but now the truth is finally out! Click here to learn the exact method before it gets banned!
+
+FAKE ARTICLE 2:
+URGENT ALERT: Government Secretly Adding Mind Control Chemicals to Tap Water
+
+Leaked documents from an anonymous whistleblower reveal that the government has been secretly adding mind control substances to public water supplies for the past 10 years. These chemicals, known as "Compound X-47," allegedly make people more compliant and less likely to question authority. Dr. Anonymous Expert, who cannot reveal his real name for safety reasons, claims that "this is the biggest conspiracy in human history." The chemicals are reportedly tasteless and odorless, making them impossible to detect without special equipment. Millions of Americans are unknowingly consuming these substances daily. The only way to protect yourself is to drink exclusively bottled water from specific brands that haven't been compromised. Share this before it gets deleted!
+
+FAKE ARTICLE 3:
+Miracle Weight Loss: Woman Loses 50 Pounds in 2 Weeks Using This One Weird Trick
+
+Sarah Johnson, a mother of three from Ohio, has shocked the medical community by losing 50 pounds in just 14 days using a simple trick she discovered by accident. "I was desperate to lose weight for my daughter's wedding," says Johnson. "Then I found this amazing method that melts fat while you sleep!" The technique involves eating a specific combination of foods at exact times, which allegedly tricks the metabolism into burning fat 24/7. Doctors are calling it "impossible" and "dangerous," but Johnson's before and after photos speak for themselves. The weight loss industry is trying to suppress this information because it threatens their profits. Get the secret formula now before Big Pharma shuts it down forever!
+
+FAKE ARTICLE 4:
+EXPOSED: Cell Phones Cause Instant Hair Growth - Phone Companies Don't Want You to Know
+
+A recent "study" conducted by the Institute of Alternative Science has discovered that holding your cell phone upside down against your scalp for 30 minutes daily can stimulate incredible hair growth. Participants in the study allegedly grew 3 inches of hair in just one week. "The electromagnetic waves, when reversed, actually stimulate follicles in ways we never imagined," claims Dr. Fake McFakerson, lead researcher. Phone manufacturers are reportedly trying to suppress this information because they fear people will use their phones differently. The study also suggests that this method can cure baldness completely within a month. Try it tonight and see amazing results by morning!
+
+FAKE ARTICLE 5:
+SHOCKING: Eating Ice Cream for Breakfast Burns More Calories Than Exercise
+
+Revolutionary new research from the "International Institute of Dessert Science" has proven that eating ice cream for breakfast actually burns more calories than a 30-minute workout. The study, which totally exists, followed 1,000 participants who ate ice cream every morning for 6 months. Results showed they lost an average of 25 pounds each while gaining muscle mass. "The cold temperature forces your body to work overtime to warm up, burning massive calories," explains Dr. Imaginary Scientist. Fitness trainers are furious about this discovery because it threatens their entire industry. The secret is to eat exactly 2 scoops of vanilla ice cream within 10 minutes of waking up. Nutritionists don't want you to know this simple trick!
+
+===============================================
+REAL NEWS ARTICLES (Should be detected as AUTHENTIC)
+===============================================
+
+REAL ARTICLE 1:
+Federal Reserve Announces 0.25% Interest Rate Adjustment Following Policy Meeting
+
+WASHINGTON (Reuters) - The Federal Reserve announced on Wednesday a 0.25 percentage point adjustment to the federal funds rate following their two-day policy meeting. The decision was made after careful consideration of current economic indicators, including inflation data, employment statistics, and GDP growth projections. Fed Chair Jerome Powell stated during the press conference that the adjustment reflects the committee's commitment to maintaining price stability while supporting maximum employment. The decision was unanimous among voting members of the Federal Open Market Committee. Economic analysts had widely anticipated this move based on recent inflation trends and labor market conditions. The new rate will take effect immediately and is expected to influence borrowing costs across various sectors of the economy.
+
+REAL ARTICLE 2:
+NASA Successfully Launches Mars Sample Return Mission Components
+
+CAPE CANAVERAL, Fla. (AP) - NASA successfully launched key components of its Mars Sample Return mission aboard an Atlas V rocket on Tuesday morning. The mission, developed in collaboration with the European Space Agency, aims to retrieve rock and soil samples collected by the Perseverance rover currently operating on Mars. The launch included the Sample Retrieval Lander and the Mars Ascent Vehicle, which will work together to collect and transport samples back to Earth. Mission Director Dr. Sarah Chen confirmed that all systems are functioning normally and the spacecraft is on its planned trajectory. The samples are expected to arrive on Earth in 2031, providing scientists with pristine Martian material for detailed laboratory analysis. This represents a significant milestone in planetary exploration and the search for signs of ancient microbial life on Mars.
+
+REAL ARTICLE 3:
+Study Shows Mediterranean Diet Linked to Reduced Risk of Heart Disease
+
+BOSTON (Reuters Health) - A comprehensive study published in the New England Journal of Medicine has found that adherence to a Mediterranean diet is associated with a 30% reduction in cardiovascular disease risk. The research, conducted over five years and involving 7,447 participants aged 55-80, compared the effects of a Mediterranean diet supplemented with extra virgin olive oil or nuts against a low-fat control diet. Lead researcher Dr. Ramon Estruch from the University of Barcelona noted that participants following the Mediterranean diet showed significantly lower rates of heart attack, stroke, and cardiovascular death. The diet emphasizes fruits, vegetables, whole grains, legumes, nuts, and olive oil while limiting red meat and processed foods. The study was funded by the Spanish government and various health organizations. These findings support previous research suggesting the cardiovascular benefits of traditional Mediterranean eating patterns.
+
+REAL ARTICLE 4:
+Supreme Court Hears Arguments on Digital Privacy Rights Case
+
+WASHINGTON (AP) - The Supreme Court heard oral arguments Tuesday in a landmark case that could reshape digital privacy rights in the United States. The case, Digital Rights Foundation v. Department of Homeland Security, centers on whether government agencies need warrants to access location data from cell phone providers. Justice Elena Kagan questioned whether existing Fourth Amendment protections adequately address modern digital surveillance capabilities. The Electronic Frontier Foundation and American Civil Liberties Union have filed amicus briefs supporting stronger privacy protections. Government attorneys argued that national security interests justify current data collection practices under existing legal frameworks. Legal experts predict the court's decision, expected by June, could significantly impact how law enforcement agencies conduct digital investigations. The case has drawn attention from technology companies, privacy advocates, and civil liberties organizations nationwide.
+
+REAL ARTICLE 5:
+Climate Scientists Report Record Arctic Ice Measurements from Research Expedition
+
+OSLO, Norway (Reuters) - An international team of climate scientists has reported new measurements of Arctic sea ice thickness following a six-month research expedition in the Arctic Ocean. The data, collected using advanced sonar technology and ice-penetrating radar, shows ice thickness variations across different regions of the Arctic basin. Dr. Melissa Thompson from the Norwegian Polar Institute, who led the expedition, stated that the measurements will help improve climate models and predictions of future ice loss. The research was conducted aboard the icebreaker vessel Kronprins Haakon as part of the MOSAiC (Multidisciplinary drifting Observatory for the Study of Arctic Climate) follow-up program. The team collected over 10,000 individual measurements during their expedition from March to September. The data will be shared with the international scientific community and incorporated into the next Intergovernmental Panel on Climate Change assessment report.
+
+===============================================
+TESTING INSTRUCTIONS
+===============================================
+
+1. Copy any of the above articles
+2. Paste into the fake news detection web application
+3. Click "Analyze Article" 
+4. Observe the predictions from all 4 AI models
+5. Check if the overall prediction matches the article type
+
+Expected Results:
+- FAKE articles should be classified as "Fake News" with high confidence
+- REAL articles should be classified as "Authentic" with high confidence
+
+Note: The detection algorithm looks for specific patterns, keywords, and writing styles that are characteristic of fake vs. real news articles.
+
+===============================================
+ADDITIONAL TEST CASES
+===============================================
+
+SHORT FAKE NEWS (Test minimum length handling):
+"BREAKING: Aliens landed in New York! Government hiding the truth! Share before deleted!"
+
+SHORT REAL NEWS (Test minimum length handling):
+"WASHINGTON (Reuters) - The Department of Transportation announced new safety regulations for commercial airlines effective next month."
+
+MIXED SIGNALS (Test edge cases):
+"A recent study suggests that a new diet trend may have health benefits, though more research is needed to confirm these preliminary findings."
+
+===============================================
+END OF TEST ARTICLES
+===============================================
